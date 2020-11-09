@@ -1,0 +1,149 @@
+/* Utility classes */
+
+body {
+  color: var(--very-dark-blue);
+}
+
+.my-5 {
+  margin-bottom: 2rem;
+}
+
+.my-2 {
+  margin-bottom: 0.5rem;
+}
+
+.text-xl {
+  font-size: 35px;
+}
+
+.py-2 {
+  padding: 1rem 0;
+}
+
+input {
+  border-radius: 1rem;
+  outline: none;
+}
+
+.contact-form {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.blue {
+  color: var(--soft-blue);
+}
+
+.contact-container {
+  position: relative;
+  margin: 2rem;
+  width: 50rem;
+  padding: 2rem;
+  border-radius: 3rem;
+  background: #bee0f3;
+}
+
+.form-control {
+  margin-bottom: 2rem;
+}
+
+label {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.form-control input {
+  width: 100%;
+  border: none;
+  background-color: #f2f2f2;
+  padding: 15px;
+  font-size: 1.8rem;
+  border-radius: 5px;
+}
+
+.contact-form h4 {
+  visibility: hidden;
+  padding-left: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.3rem;
+}
+
+.contact-form button {
+  width: 100%;
+  font-size: 2rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.error h4 {
+  visibility: visible;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.terms p {
+  font-weight: 700;
+  padding-left: 1rem;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.login {
+  text-align: center;
+  font-weight: 700;
+}
+
+.login a {
+  color: var(--soft-blue);
+  text-decoration: underline;
+}
+
+.loader {
+  position: absolute;
+  bottom: 10rem;
+  left: 3rem;
+  display: block;
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 3rem;
+  height: 3rem;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+  visibility: hidden;
+}
+
+.loader.show {
+  visibility: visible;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
