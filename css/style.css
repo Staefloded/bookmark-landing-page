@@ -858,6 +858,10 @@ Hide content
     line-height: 5rem;
   }
 
+  .showcase__links > * {
+    margin-bottom: 1rem;
+  }
+
   /* FEATURES */
   .feature--grid {
     display: grid;
