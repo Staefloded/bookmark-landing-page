@@ -39,7 +39,7 @@ input {
 .contact-container {
   position: relative;
   margin: 2rem;
-  width: 50rem;
+  max-width: 70rem;
   padding: 2rem;
   border-radius: 3rem;
   background: #bee0f3;

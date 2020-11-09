@@ -962,6 +962,7 @@ Hide content
   }
   .extension--browser:last-child {
     margin-top: 0;
+    margin-left: 5rem;
   }
 
   .extension--browser a {
